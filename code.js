@@ -4,9 +4,13 @@ function helloWorld() {
 }
 
 function sayHello(input) {
-    if (typeof input === "boolean" && input === 'string') {
-        return "Hello, " + input + "!";
-    } else {
+    if (input === undefined || typeof input == 'boolean') {
         return "Hello, World!"
     }
+    else {
+        return ("Hello, " + input + "!")
+    }
+
 }
+
+
