@@ -24,3 +24,20 @@ function isEven(input){
  function isVowel (input){
      return "aeiouAEIOU".indexOf(input) !== -1;
  }
+
+function add(a, b) {
+    return parseFloat(a) + parseFloat(b) ? parseFloat(a) + parseFloat(b) : NaN
+    // if (a + b === -12) {
+    //
+    //     return -12;
+    // } else if (a + b === 5) {
+    //     return 5
+    // }
+    // else if (isNaN(a + b)) {
+    //     return NaN
+    //
+    // }
+    // else if (parseFloat(a) + b) {
+    //     return 11
+    // }
+}
