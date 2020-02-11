@@ -21,3 +21,6 @@ function isEven(input){
     return parseFloat(input) % 2 === 0;
 
 }
+ function isVowel (input){
+     return "aeiouAEIOU".indexOf(input) !== -1;
+ }
